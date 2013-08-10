@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block narrow-content %}
+	<div class= "narrow-content">
+		<div id="blog-content">
+				<h2 id= "about-header">Blog</h2>
+				<p class= "about-p">
+					Coming Soon!
+				</p>
+		</div>
+		<div class= "hidden" id="archive-content">	
+		</div>
+	</div>
+{% endblock %}
+
+{% block menu-tabs %}
+	<ul id="tab-container">
+		<li id="about-tab" class="menu-item"><a href="/about">About</a></li>
+		<li id="projects-tab" class = "menu-item"><a href="/projects">P + R</a></li>
+		<li id="blog-tab" class = "current-menu-item"><a href="/blog">Blog</a></li>
+	</ul>
+{% endblock %}

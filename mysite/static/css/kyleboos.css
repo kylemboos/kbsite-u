@@ -1,0 +1,314 @@
+html,
+body {
+	height:100%;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+	color: #273132;
+}
+
+
+/* Wrapper for page content to push down footer */
+#main-content {
+	
+	/*height: auto !important;*/
+	/* Negative indent footer by its height 
+	margin: 0 auto;*/
+	min-height:100%
+	
+}
+
+
+
+.narrow-content{
+	margin: 0px auto 0;
+	min-width: 500px;
+	max-width: 800px;
+	padding-bottom: 80px;
+	padding-top:60px;
+	width: 100%;	
+}
+
+#about-content{
+	margin-right: 30%;	
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;
+}
+
+#blog-content{
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;	
+}
+
+#project-content{
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;	
+}
+
+#feature-nav-top{
+position:fixed;
+
+
+}
+
+#feature-nav-bottom{
+position:fixed;
+
+}
+
+.feature-holder{
+	height:auto;
+	width:600px;
+	display:block;
+	margin-top: 50px;
+	float:left;
+}	
+
+.feature-image-snapshot{
+	width:150px;
+	height:150px;
+}
+
+.feature-image-snapshot img{
+	width:150px;
+	height:150px;
+}
+
+.feature-left{
+	width:25%;
+	float:left;
+}
+
+.feature-right{
+	width:75%;
+	float:left;
+	padding-left:10px;
+
+}
+.feature-link{
+	padding-top: 5px;
+	margin-left: 22%;
+}
+
+.feature-link a {
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.1em;
+	font-style:italic;
+	color: #273132;
+}
+
+.feature-link a:hover, a:focus {
+	color: #273132;
+}
+
+.feature-title{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 1.6em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	font-weight:bold;
+	margin-bottom: 3%;
+}
+
+.feature-description{
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	padding-left:15px;
+}
+
+#archive-content{
+	display: block;
+	height: 450px;
+	width: 384px;
+	position: fixed;
+	right: 3%;
+	border-style:solid;
+	border-width:1px;
+	bottom:35%
+}
+
+.about-p{
+    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	margin: 1em 0;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #485c5d;
+}
+
+.about-p1{
+    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	margin: 1em 0;
+	font-size: 1.4em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #485c5d;
+}
+
+#about-header{
+	font-family: sans-serif;
+	font-size: 3.5em;
+	font-style: normal;
+	line-height: 1.1em;
+}
+
+#project-header{
+	font-family: sans-serif;
+	font-size: 3.8em;
+	font-style: normal;
+	line-height: 1.1em;
+}
+
+.menu-item{
+	color: #273132;
+	background: rgba(255, 255, 255, 1.0);
+	font-weight:bold;
+}
+
+.menu-item a:hover, a:focus {
+	color: #273132;
+}
+
+.current-menu-item{
+	background: #273132;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.current-menu-item a{
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.current-menu-item a:hover, a:focus {
+	color: rgba(255, 255, 255, 1.0);
+}
+
+#contact-image{
+	/*background: url() no-repeat;*/
+	display: block;
+	height: 257px;
+	width: 384px;
+}
+
+#social-icons{
+	bottom:100px;
+	width: 54px;
+	left:2%;
+	padding:6px;
+	position: fixed;
+	
+}
+
+#social-icons a img{
+	margin:5px;
+}
+
+
+#contact-container{
+	
+	bottom: 0;
+	right: 3%;
+	position: fixed;
+}
+
+#resume-container{
+	right:0%;
+	position:fixed;
+}
+	
+#resume-container a{
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.1em;
+	color: #273132;
+	text-transform: none;
+}
+
+#resume-container a:hover, a:focus {
+	color: #273132;
+}
+
+li{
+	font: inherit;
+	background: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+	height: 100%;
+	padding: 5px;
+	padding-top:3px;
+	transition: background 0.5s ease-in;
+	border-radius: 2px 2px 0 0;
+}
+
+#footer-tab-container{
+	margin: 0;
+	height:60px;
+	
+	
+}
+
+
+#tab-container{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	height: 8%;
+	position: fixed;
+	bottom: -10px;
+	-webkit-animation: fadein 1s;
+	animation: fadein 1s;
+    -moz-animation: fadein 1s;
+}
+
+.hidden{
+	display:none;
+}	
+
+/* Set the fixed height of the footer here */
+footer {
+	bottom: 0;
+	height:  10%;
+	min-height: 60px;
+	position: absolute;
+	width:100%;
+	text-transform: uppercase;
+	clear:both;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}	

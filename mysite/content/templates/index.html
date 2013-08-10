@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block narrow-content %}
+	<div class= "narrow-content">
+	
+		<div id="about-content">
+			<h2 id= "about-header">About</h2>
+			<p class= "about-p1">
+				Hi, my name is Kyle, I am currently a student of computer science at the University of California, Irvine.			</p>
+			<p class= "about-p">
+				I have a passion for software and an eye for design. My most current interests have involved mobile development, applications in augmented reality, and now the web.			</p>
+			<p class= "about-p">
+				Feel free to share, contact me, or follow me on my blog.			</p>	
+		</div>
+	</div>
+{% endblock %}
+
+{% block menu-tabs %}
+	<ul id="tab-container">
+		<li id="about-tab" class="current-menu-item"><a href="/about">About</a></li>
+		<li id="projects-tab" class = "menu-item"><a href="/projects">P + R</a></li>
+		<li id="blog-tab" class = "menu-item"><a href="/blog">Blog</a></li>
+	</ul>
+{% endblock %}
