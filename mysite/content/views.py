@@ -7,7 +7,6 @@ def about(request):
     return render_to_response('index.html')
 	
 def blog(request):
-	entries = posts.objects.all()
 	return render_to_response('blog.html', {'posts' : entries})
 	
 def projects(request):
