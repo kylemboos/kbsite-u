@@ -273,8 +273,11 @@ li{
 	display:none;
 }	
 
+#real-footer{
+	margin:auto;
+}
 /* Set the fixed height of the footer here */
-footer {
+.footer {
 	bottom: 0;
 	height:  10%;
 	min-height: 60px;
