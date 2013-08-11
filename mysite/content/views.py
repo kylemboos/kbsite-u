@@ -7,7 +7,7 @@ def about(request):
     return render_to_response('index.html')
 	
 def blog(request):
-	return render_to_response('blog.html', {'posts' : entries})
+	return render_to_response('blog.html')
 	
 def projects(request):
 	return render_to_response('projects.html')
