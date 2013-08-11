@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Kyle', 'kyle.boos21@gmail.com'),
+    ('Kyle Boos', 'kyle.boos21@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -115,12 +115,6 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-	"django.contrib.messages.context_processors.messages",
-	'django.contrib.auth.context_processors.auth',
-	
-)
-
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -128,11 +122,10 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mysite.content',
     # Uncomment the next line to enable the admin:
-     'django.contrib.admin',
+    # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-     'django.contrib.admindocs',
+    # 'django.contrib.admindocs',
 )
 
 # A sample logging configuration. The only tangible logging
