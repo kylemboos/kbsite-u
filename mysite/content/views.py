@@ -1,7 +1,11 @@
 from django.shortcuts import render_to_response
 
-from content.models import posts
+from content.models import post
  
+post1 = post( 
+ 
+
+
 def home(request):
     return render_to_response('index.html')
 	

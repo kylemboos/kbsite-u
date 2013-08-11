@@ -5,11 +5,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-	(r'^accounts/logout/$', 'django.contrib.auth.views.logout'), 
-	(r'^accounts/login/$', 'django.contrib.auth.views.login', {'template_name': 'admin/login.html'}), 
-	(r'^accounts/$', 'django.views.generic.simple.redirect_to', {'url': '/'}), 
-	(r'^accounts/profile/$', 'django.views.generic.simple.redirect_to', {'url': '/'}),
-
     # Examples:
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^mysite/', include('mysite.foo.urls')),
