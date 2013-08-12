@@ -9,6 +9,13 @@ def about(request):
 def blog(request):
 	return render_to_response('blog.html')
 	
+def post(request):
+	path = request.path_info
+	pathwords = path.split('/')
+	for word in pathwords:
+		if "post" in word:
+			return render_to_response(word)
+	
 def projects(request):
 	return render_to_response('projects.html')
 	

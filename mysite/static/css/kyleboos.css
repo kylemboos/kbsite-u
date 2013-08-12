@@ -38,18 +38,103 @@ a{
     -moz-animation: fadein 3s;
 }
 
-#blog-content{
-	margin-right: 30%;
-	-webkit-animation: fadein 3s;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s;	
-}
+
 
 #project-content{
 	margin-right: 30%;
 	-webkit-animation: fadein 3s;
 	animation: fadein 3s;
     -moz-animation: fadein 3s;	
+}
+.blog-header{
+	font-family: 'Simonetta', cursive;
+	font-size: 2.5em;
+	font-style: normal;
+	line-height: 1.1em;
+	color:#160127;
+	margin-bottom:25px;
+		
+}
+
+.blog-post{
+	margin-top:25px;
+}
+
+.blog-date{
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.0em;
+	color: #beccdb;
+	text-align:right;
+	height:100%;
+}
+
+.blog-title a{
+	font-family: 'Simonetta', cursive;
+	font-size:32px;
+	color: #c30;
+}
+
+.blog-content{
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;	
+}
+
+.blog-content img{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:25%;
+	display:block;
+}
+
+#cuci{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:13%;
+	display:block;
+}
+
+#webjam{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:0%;
+	display:block;
+}
+
+.blog-desc{
+	margin-top:10px;
+	
+}
+.blog-desc b{
+	display: block;
+	font-size: 24px;
+	line-height: 1em;
+}
+
+.blog-desc p{
+	font-family: 'Fauna One', serif;
+}
+
+.blog-p{
+	font-family: 'Fauna One', serif;
+	margin: 1em 0;
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.6em;
+}
+
+.blog-p a{
+	color:#2E0854;
+	font-style:italic;
+}
+
+.blog-p a:hover, a:focus {
+	color:#2E0854;
 }
 
 #feature-nav-top{
@@ -273,11 +358,8 @@ li{
 	display:none;
 }	
 
-#real-footer{
-	margin:auto;
-}
 /* Set the fixed height of the footer here */
-.footer {
+footer {
 	bottom: 0;
 	height:  10%;
 	min-height: 60px;

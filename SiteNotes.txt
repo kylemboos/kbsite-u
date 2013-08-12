@@ -2,7 +2,17 @@ Create a blog post for each project and link them to the interesting tabs for ea
 
 Need to update resume and rearrange experience and projects.
 
-Need to add a new picture to put on the left side of the website.
+Need to add a new picture to put on the right side of the website.
 
 Lets make the blog..
 
+
+
+at google:
+Organize and manage events on campus, market Google products and apps for education
+connect with administration, organizations, and students to promote Google apps for specific issues
+
+at IBM:
+Developed the evaluation and conversion of the Oracle language to IBM's DB2 for z/OS.
+Project involved Java, XML, ANTLR language tools to specify the Oracle language, and Regex to define the conversion process.
+ 

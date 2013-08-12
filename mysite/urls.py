@@ -17,6 +17,7 @@ urlpatterns = patterns('',
 
      url(r'^$', 'mysite.content.views.home', name='home'),
 	 url(r'^blog/', 'mysite.content.views.blog', name='blog'),
+	 url(r'^post.*', 'mysite.content.views.post', name='post'),
 	 url(r'^projects/', 'mysite.content.views.projects', name='projects'),
 	 url(r'^resume/', 'mysite.content.views.resume', name='resume'),
 	 url(r'^about/', 'mysite.content.views.about', name='about'),
