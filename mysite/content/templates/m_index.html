@@ -1,0 +1,25 @@
+{% extends "m_base.html" %}
+
+
+{% block narrow-content %}
+{% load staticfiles %}
+	<div class= "narrow-content">
+		<div id="about-content">
+			<h2 id= "about-header">About</h2>
+			<p class= "about-p1 blue">
+				Hi, my name is <span>Kyle Boos</span> and I am currently a student of computer science and Google ambassador at the University of California, Irvine.			</p>
+			<p class= "about-p green">
+				I have a passion for <a href="/projects/"><span>software</span></a> and an eye for design. My most current interests have involved mobile development, applications in augmented reality, and now the web.			</p>
+			<p class= "about-p red">
+				Feel free to share, contact me, or follow me on my <a href="/blog/"><span>blog</span></a>.			</p>	
+		</div>
+	</div>
+{% endblock %}
+
+{% block menu-tabs %}
+	<ul id="tab-container">
+		<li id="about-tab" class="current-menu-item"><a href="/about">About</a><img src="{% static 'img/tab-blue.jpg'%}"></img></li>
+		<li id="projects-tab" class = "menu-item"><a href="/projects">P + R</a><img src="{% static 'img/tab-green-w.jpg'%}"></img></li>
+		<li id="blog-tab" class = "menu-item"><a href="/blog">Blog</a><img src="{% static 'img/tab-red-w.jpg'%}"></img></li>
+	</ul>
+{% endblock %}
