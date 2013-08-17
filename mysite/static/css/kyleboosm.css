@@ -43,7 +43,8 @@ a{
 	font-family: sans-serif;
 	font-size: 2.5em;
 	font-style: normal;
-	line-height: 1.1em;
+	line-height: 1.1em;	
+	padding-left:20%;
 }
 
 #project-header{
@@ -109,6 +110,14 @@ a{
 	-webkit-animation: fadein 3s;
 	animation: fadein 3s;
     -moz-animation: fadein 3s;
+}
+
+.blog-content{
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    padding-bottom:25px;	
 }
 
 #social-icons{

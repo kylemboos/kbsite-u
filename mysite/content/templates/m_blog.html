@@ -1,0 +1,77 @@
+{% extends "m_base.html" %}
+
+
+{% block narrow-content %}
+{% load staticfiles %}
+	<div class= "narrow-content">
+		<div class="blog-content">
+			<div class="blog-post">
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg10 blog-title"><a href="/post1.html">Hello Web</a></div>
+				</div>
+
+				<div class="row blog-desc">
+					<div class="col-lg-2 blog-date">Aug 11 <b>2013</b></div>
+					<div class="col-lg-10"><p>Details about my experience in web development and how I was first introduced to programming in the mystery that was the internet.</p></div>
+				</div>
+			</div>
+			
+			<div class="blog-post">
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg10 blog-title"><a>What About This Place?</a></div>
+				</div>
+				<div class="row blog-desc">
+					<div class="col-lg-2 blog-date">??? ??<b>2013</b></div>
+					<div class="col-lg-10 "><p>Coming soon..</p></div>
+				</div>
+			</div>
+			
+			<div class="blog-post">
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg10 blog-title"><a>Augmented Reality + Kinect</a></div>
+				</div>
+				<div class="row blog-desc">
+					<div class="col-lg-2 blog-date">??? ??<b>2013</b></div>
+					<div class="col-lg-10 "><p>Coming soon..</p></div>
+				</div>
+			</div>
+			
+			<div class="blog-post">
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg10 blog-title"><a>Robots Robots.. Android?</a></div>
+				</div>
+				<div class="row blog-desc">
+					<div class="col-lg-2 blog-date">??? ??<b>2013</b></div>
+					<div class="col-lg-10 "><p>Coming Soon..</p></div>
+				</div>
+			</div>
+			
+			<div class="blog-post">
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg10 blog-title"><a>luci.</a></div>
+				</div>
+				<div class="row blog-desc">
+					<div class="col-lg-2 blog-date">??? ??<b>2013</b></div>
+					<div class="col-lg-10 "><p>Coming Soon..</p></div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class= "hidden" id="archive-content">	
+		</div>
+	</div>
+{% endblock %}
+
+{% block menu-tabs %}
+	<ul id="tab-container">
+		<li id="about-tab" class="menu-item"><a href="/about">About</a><img src="{% static 'img/tab-blue-w.jpg'%}"></img></li>
+		<li id="projects-tab" class = "menu-item"><a href="/projects">P + R</a><img src="{% static 'img/tab-green-w.jpg'%}"></img></li>
+		<li id="blog-tab" class = "current-menu-item"><a href="/blog">Blog</a><img src="{% static 'img/tab-red.jpg'%}"></img></li>
+	</ul>
+{% endblock %}
