@@ -114,11 +114,21 @@ a{
 }
 
 .blog-content{
-	margin-right: 30%;
+	padding-left:0%;
+	padding-top:2%;
 	-webkit-animation: fadein 3s;
 	animation: fadein 3s;
     -moz-animation: fadein 3s;
     padding-bottom:25px;	
+}
+
+.blog-content a img{
+	padding-top:25px;
+	padding-bottom:15px;
+	margin-left:0%;
+	display:block;
+	width:75%;
+	height:75%;
 }
 
 #social-icons{
