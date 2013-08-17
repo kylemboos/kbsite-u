@@ -2,7 +2,10 @@ html, body {height: 100%;}
 
 #wrap {min-height: 100%;}
 
-#main {overflow:auto;
+#main {
+	overflow:auto;
+	padding-left:10%;
+	padding-top:2%;
 	padding-bottom: 115px;}  /* must be same height as the footer */
 
 #footer {position: relative;
