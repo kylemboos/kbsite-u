@@ -1,0 +1,50 @@
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 150px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	
+	} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+a{
+	text-decoration: none;
+	color: #273132;
+}
+
+.narrow-content{
+	min-width: 500px;
+	max-width: 800px;
+	width: 100%;	
+}
+
+#social-icons{
+	bottom:100px;
+	width: 100%;
+	left:2%;
+	padding:6px;
+}
+
+
+#social-icons a img{
+	margin:5px;
+}

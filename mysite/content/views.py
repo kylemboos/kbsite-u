@@ -21,3 +21,13 @@ def projects(request):
 	
 def resume(request):
 	return render_to_response('resume.html')
+
+
+def mabout(request):
+		return render_to_response('m_index.html')
+		
+def mprojects(request):
+		return render_to_response('m_projects.html')
+		
+def mblog(request):
+		return render_to_response('m_blog.html')

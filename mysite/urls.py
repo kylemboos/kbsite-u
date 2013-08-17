@@ -21,5 +21,8 @@ urlpatterns = patterns('',
 	 url(r'^projects/', 'mysite.content.views.projects', name='projects'),
 	 url(r'^resume/', 'mysite.content.views.resume', name='resume'),
 	 url(r'^about/', 'mysite.content.views.about', name='about'),
+	 url(r'^mabout/', 'mysite.content.views.mabout', name='mabout'),
+	 url(r'^mprojects/', 'mysite.content.views.mprojects', name='mprojects'),
+	 url(r'^mblog/', 'mysite.content.views.mblog', name='mblog'),
 	 url(r'^favicon\.ico$', 'django.views.generic.simple.redirect_to', {'url': 'mysite/static/images/favicon.ico'}),
 )

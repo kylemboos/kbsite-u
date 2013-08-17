@@ -12,15 +12,12 @@ a{
 
 /* Wrapper for page content to push down footer */
 #main-content {
-	
+
 	/*height: auto !important;*/
 	/* Negative indent footer by its height 
 	margin: 0 auto;*/
 	min-height:100%
-	
 }
-
-
 
 .narrow-content{
 	margin: 0px auto 0;
@@ -30,360 +27,6 @@ a{
 	padding-top:60px;
 	width: 100%;	
 }
-
-#about-content{
-	margin-right: 30%;	
-	-webkit-animation: fadein 3s;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s;
-}
-
-
-
-#project-content{
-	margin-right: 30%;
-	-webkit-animation: fadein 3s;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s;	
-}
-.blog-header{
-	font-family: 'Simonetta', cursive;
-	font-size: 2.5em;
-	font-style: normal;
-	line-height: 1.1em;
-	color:#160127;
-	margin-bottom:25px;
-		
-}
-
-.blog-post{
-	margin-top:25px;
-}
-
-.blog-date{
-	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	font-size: 1.2em;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.0em;
-	color: #beccdb;
-	text-align:right;
-	height:100%;
-}
-
-.blog-title a{
-	font-family: 'Simonetta', cursive;
-	font-size:32px;
-	color: #c30;
-}
-
-.blog-content{
-	margin-right: 30%;
-	-webkit-animation: fadein 3s;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s;	
-}
-
-.blog-content img{
-	margin-top:25px;
-	margin-bottom:15px;
-	margin-left:25%;
-	display:block;
-}
-
-#cuci{
-	margin-top:25px;
-	margin-bottom:15px;
-	margin-left:13%;
-	display:block;
-}
-
-#webjam{
-	margin-top:25px;
-	margin-bottom:15px;
-	margin-left:0%;
-	display:block;
-}
-
-.blog-desc{
-	margin-top:10px;
-	
-}
-.blog-desc b{
-	display: block;
-	font-size: 24px;
-	line-height: 1em;
-}
-
-.blog-desc p{
-	font-family: 'Fauna One', serif;
-}
-
-.blog-p{
-	font-family: 'Fauna One', serif;
-	margin: 1em 0;
-	font-size: 1.0em;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.6em;
-}
-
-.blog-p a{
-	color:#2E0854;
-	font-style:italic;
-}
-
-.blog-p a:hover, a:focus {
-	color:#2E0854;
-}
-
-#feature-nav-top{
-position:fixed;
-
-
-}
-
-#feature-nav-bottom{
-position:fixed;
-
-}
-
-.feature-holder{
-	height:auto;
-	width:600px;
-	display:block;
-	margin-top: 50px;
-	float:left;
-}	
-
-.feature-image-snapshot{
-	width:150px;
-	height:150px;
-}
-
-.feature-image-snapshot img{
-	width:150px;
-	height:150px;
-}
-
-.feature-left{
-	width:25%;
-	float:left;
-}
-
-.feature-right{
-	width:75%;
-	float:left;
-	padding-left:10px;
-
-}
-.feature-link{
-	padding-top: 5px;
-	margin-left: 22%;
-}
-
-.feature-link a {
-	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	font-size: 1.1em;
-	font-style:italic;
-	color: #273132;
-}
-
-.feature-link a:hover, a:focus {
-	color: #273132;
-}
-
-.feature-title{
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-size: 1.6em;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.4em;
-	font-weight:bold;
-	margin-bottom: 3%;
-	color:#00B600;
-}
-
-.feature-description{
-	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	font-size: 1.2em;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.4em;
-	padding-left:15px;
-}
-
-#archive-content{
-	display: block;
-	height: 450px;
-	width: 384px;
-	position: fixed;
-	right: 3%;
-	border-style:solid;
-	border-width:1px;
-	bottom:35%
-}
-
-.about-p{
-    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	margin: 1em 0;
-	font-size: 1.2em;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.4em;
-	color: #485c5d;
-}
-
-.about-p1{
-    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	margin: 1em 0;
-	font-size: 1.4em;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.4em;
-	color: #485c5d;
-}
-
-.blue span{
-	color:#0000C1;
-
-}
-
-.blue a{
-	text-decoration: none;
-}
-
-
-.red span{
-	color:#C30000;
-
-}
-
-.red a{
-	text-decoration: none;
-}
-
-.green span{
-	color:#00B600;
-
-}
-
-.green a{
-	text-decoration: none;
-}
-
-
-#about-header{
-	font-family: sans-serif;
-	font-size: 3.5em;
-	font-style: normal;
-	line-height: 1.1em;
-}
-
-#project-header{
-	font-family: sans-serif;
-	font-size: 3.8em;
-	font-style: normal;
-	line-height: 1.1em;
-}
-
-.menu-item{
-	color: #273132;
-	background: rgba(255, 255, 255, 1.0);
-	font-weight:bold;
-}
-
-.menu-item a:hover, a:focus {
-	color: #273132;
-}
-
-.current-menu-item{
-	background: #273132;
-	color: rgba(255, 255, 255, 1.0);
-}
-
-.current-menu-item a{
-	color: rgba(255, 255, 255, 1.0);
-}
-
-.current-menu-item a:hover, a:focus {
-	color: rgba(255, 255, 255, 1.0);
-}
-
-#contact-image{
-	/*background: url() no-repeat;*/
-	display: block;
-	height: 257px;
-	width: 384px;
-}
-
-#social-icons{
-	bottom:100px;
-	width: 54px;
-	left:2%;
-	padding:6px;
-	position: fixed;
-	
-}
-
-#social-icons a img{
-	margin:5px;
-}
-
-
-#contact-container{
-	
-	bottom: 0;
-	right: 3%;
-	position: fixed;
-}
-
-#resume-container{
-	right:0%;
-	position:fixed;
-}
-	
-#resume-container a{
-	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	font-size: 1.1em;
-	color: #273132;
-	text-transform: none;
-}
-
-#resume-container a:hover, a:focus {
-	color: #273132;
-}
-
-li{
-	font: inherit;
-	background: rgba(255, 255, 255, 0.7);
-	display: inline-block;
-	height: 100%;
-	padding: 5px;
-	padding-top:3px;
-	transition: background 0.5s ease-in;
-	border-radius: 2px 2px 0 0;
-	position:relative;
-}
-
-li img{
-	position: absolute;
-    top: 0;
-    bottom: -15px;
-    left: 0;
-    right: 0;
-    width: 40px;
-    height: 15%;
-    margin: auto;
-}
-
-#footer-tab-container{
-	margin: 0;
-	height:60px;
-	
-	
-}
-
 
 #tab-container{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -396,9 +39,29 @@ li img{
     -moz-animation: fadein 1s;
 }
 
-.hidden{
-	display:none;
-}	
+#social-icons{
+	bottom:100px;
+	width: 54px;
+	left:2%;
+	padding:6px;
+	position: fixed;
+
+}
+
+#social-icons a img{
+	margin:5px;
+}
+
+#feature-nav-top{
+position:fixed;
+
+
+}
+
+#feature-nav-bottom{
+position:fixed;
+
+}
 
 /* Set the fixed height of the footer here */
 footer {
@@ -414,28 +77,3 @@ footer {
 	font-weight: normal;
 	line-height: 1.2em;
 }
-
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}	
