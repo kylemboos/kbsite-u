@@ -31,3 +31,10 @@ def mprojects(request):
 		
 def mblog(request):
 		return render_to_response('m_blog.html')
+		
+def mpost(request):
+	path = request.path_info
+	pathwords = path.split('/')
+	for word in pathwords:
+		if "post" in word:
+			return render_to_response(word)

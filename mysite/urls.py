@@ -24,5 +24,6 @@ urlpatterns = patterns('',
 	 url(r'^mabout/', 'mysite.content.views.mabout', name='mabout'),
 	 url(r'^mprojects/', 'mysite.content.views.mprojects', name='mprojects'),
 	 url(r'^mblog/', 'mysite.content.views.mblog', name='mblog'),
+	 url(r'^mpost.*', 'mysite.content.views.mpost', name='mpost'),
 	 url(r'^favicon\.ico$', 'django.views.generic.simple.redirect_to', {'url': 'mysite/static/images/favicon.ico'}),
 )
